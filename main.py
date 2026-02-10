@@ -9,7 +9,7 @@ from telegram.error import TelegramError
 import tradingeconomics as te  # pip install tradingeconomics
 
 # ==================== إعداداتك ====================
-BOT_TOKEN = 'YOUR_BOT_TOKEN_HERE'  # من BotFather
+BOT_TOKEN = '8553390029:AAEQD823nUDAykMCpPscymAw-zXHK3-kLI8'  # من BotFather
 CHANNEL_ID = '@falconpips'  # اسم القناة
 TE_LOGIN = 'guest'  # Trading Economics demo
 TE_PASSWORD = 'guest'
@@ -136,4 +136,5 @@ while True:
         time.sleep(60)  # دقيقة كاملة
     except Exception as e:
         logger.error(f"خطأ عام: {e}")
+
         time.sleep(300)  # 5 دقائق ثم إعادة
