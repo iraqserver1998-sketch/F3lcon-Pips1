@@ -1,0 +1,20 @@
+# Secrets
+.env
+config.py
+*.key
+BOT_TOKEN
+TE_LOGIN
+TE_PASSWORD
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+env/
+venv/
+.venv/
+
+# Logs
+*.log
+logs/
